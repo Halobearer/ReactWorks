@@ -1,0 +1,77 @@
+.Box-Container {
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 220px;
+    width: 300px;
+}
+
+.R1-c1 {
+    background-color: darkslategrey;
+    border: 7px solid #000000;
+    height: 100px;
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+
+.R1-c2 {
+    background-color: darkslategrey;
+    border: 7px solid black;
+    cursor: pointer;
+}
+
+.R1-c3 {
+    background-color: darkslategrey;
+    border: 7px solid black;
+    cursor: pointer;
+}
+
+.R2-c1 {
+    background-color: darkslategrey;
+    height: 100px;
+    border: 7px solid black;
+    cursor: pointer;
+}
+
+.R2-c2 {
+    background-color: darkslategrey;
+    height: 100px;
+    border: 7px solid black;
+    cursor: pointer;
+}
+
+.R2-c3 {
+    background-color: darkslategrey;
+    border: 7px solid black;
+    height: 100px;
+    cursor: pointer;
+}
+
+.R3-c1 {
+    background-color: darkslategrey;
+    border: 7px solid black;
+    height: 100px;
+    cursor: pointer;
+}
+
+.R3-c2 {
+    background-color: darkslategrey;
+    border: 7px solid black;
+    height: 100px;
+    cursor: pointer;
+}
+
+.R3-c3 {
+    background-color: darkslategrey;
+    border: 7px solid black;
+    height: 100px;
+    cursor: pointer;
+}
+.R1-c1:hover{
+    transform: scale(1.1);
+    background-color: brown;
+    border: 7px solid white;
+}
