@@ -1,0 +1,80 @@
+.MainContainer {
+    background-color: darkslategrey;
+    font-size: xxx-large;
+    border-radius: 63px;
+}
+
+.FirstText {
+    text-align: center;
+    top: 32px;
+    position: relative;
+}
+
+.InputBar {
+    left: 29%;
+    position: relative;
+    width: 33%;
+    padding-bottom: 52px;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 21px;
+}
+
+.Button {
+    left: 66%;
+    position: relative;
+    top: -74px;
+    width: 131px;
+    padding-top: 25px;
+    padding-bottom: 23px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-size: large;
+    transition: transform 0.3s ease;
+}
+
+.Button:hover {
+    /*background-color: lightblue;*/
+    color: black;
+    transform: scale(1.1);
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+}
+
+.PlayGame {
+    left: 35%;
+    position: relative;
+    width: 133px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    font-size: large;
+    font-weight: 800;
+    background: green;
+    transition: transform 0.3s ease;
+    border-radius: 18px;
+}
+
+.PlayGame:hover {
+    transform: scale(1.1);
+    background-color: darkmagenta;
+}
+
+.Exit {
+    left: 50%;
+    position: relative;
+    width: 132px;
+    top: -68px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    background: indianred;
+    font-weight: 900;
+    font-size: large;
+    transition: transform 0.3s ease;
+    border-radius: 18px;
+}
+
+.Exit:hover {
+    transform: scale(1.1);
+    background-color: gold;
+}
